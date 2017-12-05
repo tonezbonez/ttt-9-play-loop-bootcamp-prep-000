@@ -29,7 +29,7 @@ def turn(board, turn_count)
   index = input_to_index(input)
 
   if valid_move?(board, index) && turn_count % 2 == 0
-      move(board, index, O)
+      move(board, index, "O")
       display_board(board)
   elsif valid_move?(board, index) && turn_count % 2 ==1
       move(board, index,)
