@@ -31,7 +31,7 @@ def turn(board)
   if valid_move?(board, index) && turn_count % 2 == 0
       move(board, index, O)
       display_board(board)
-  elsif valid_move?(board, index) && turn_count % 2 !==0
+  elsif valid_move?(board, index) && turn_count % 2 ==1
       move(board, index,)
       display_board(board)
   else
